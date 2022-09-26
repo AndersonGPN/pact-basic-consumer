@@ -32,6 +32,9 @@
 					<pactBrokerUrl>http://localhost:9080</pactBrokerUrl>
 					<pactBrokerUsername>pact_workshop</pactBrokerUsername>
 					<pactBrokerPassword>pact_workshop</pactBrokerPassword>
+			  	    <tags>
+			      	  <tag>${git.branch}</tag>
+			     	 </tags>					
 					<trimSnapshot>true</trimSnapshot>
 				</configuration>
 			</plugin>
